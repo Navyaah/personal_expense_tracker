@@ -1,5 +1,5 @@
 Personal Expense Tracker: A full-stack MERN application for managing and tracking personal expenses efficiently. Users can add, edit, delete, and view expenses, categorize them, and monitor their spending habits with a modern UI and secure backend. Features: ✔ User Authentication – Secure signup/login with JWT ✔ Add & Manage Expenses – Create, update, and delete expense records ✔ Expense Categories – Organize expenses by category (Food, Travel, Bills, etc.) ✔ Dashboard & Charts – Visualize spending using graphs ✔ Responsive UI – Modern and mobile-friendly interface ✔ MongoDB Database – Store user and expense data securely ✔ REST API – CRUD operations for expenses and user management Tech Stack: Frontend: React.js, Context API / Redux, Axios, Tailwind CSS or Bootstrap Backend: Node.js, Express.js Database: MongoDB (with Mongoose) Authentication: JWT (JSON Web Token) Deployment: Frontend: Vercel / Netlify Backend: Render / Heroku Database: MongoDB Atlas Project Structure: expense-tracker/ expense-tracker/
-├── backend/
+```├── backend/
 │   ├── db/
 │   │   └── connect.js
 │   ├── models/
@@ -30,6 +30,7 @@ Personal Expense Tracker: A full-stack MERN application for managing and trackin
 │   └── .env
 │
 └── README.md
+```
 Installation & Setup:
 
 Clone the Repository git clone https://github.com/Kumarsai1434/epense_tracker.git cd personal-expense-tracker
